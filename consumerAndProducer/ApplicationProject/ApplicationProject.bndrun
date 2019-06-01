@@ -1,0 +1,31 @@
+-runfw: org.eclipse.osgi;version=3.13
+-runee: JavaSE-1.8
+-runprovidedcapabilities: ${native_capability}
+
+-resolve.effective: active
+
+-runproperties: \
+	osgi.console=,\
+	osgi.console.enable.builtin=false
+
+-runrequires: \
+	osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.shell)',\
+	osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.command)',\
+	bnd.identity;version='1.0.0.201905281954';id='LogCreatorService',\
+	bnd.identity;version='1.0.0.201906010349';id='KafkaProducerService',\
+	bnd.identity;version='1.0.0.201906010349';id='KafkaConsumerService'
+-runbundles: \
+	LogCreatorService;version=snapshot,\
+	org.apache.felix.gogo.command;version='[1.0.2,1.0.3)',\
+	org.apache.felix.gogo.runtime;version='[1.0.10,1.0.11)',\
+	org.apache.felix.gogo.shell;version='[1.0.0,1.0.1)',\
+	org.apache.felix.scr;version='[2.1.10,2.1.11)',\
+	KafkaProducerService;version=snapshot,\
+	LogCreatorAPI;version=snapshot,\
+	com.google.guava;version='[16.0.1,16.0.2)',\
+	ch.qos.logback.classic;version='[1.2.3,1.2.4)',\
+	ch.qos.logback.core;version='[1.2.3,1.2.4)',\
+	org.apache.servicemix.bundles.kafka-clients;version='[2.2.0,2.2.1)',\
+	slf4j.api;version='[1.7.25,1.7.26)',\
+	KafkaConsumerService;version=snapshot,\
+	com.google.guava;version='[21.0.0,21.0.1)'

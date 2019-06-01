@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="LogCreatorAPI" increment="1559421682937">
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="LogCreatorAPI"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="1.0.0.201906012041" type="Version"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="1.0.0.201906012041" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="LogCreatorAPI"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="1.0.0.201906012041" type="Version"/>
+      <attribute name="osgi.wiring.host" value="LogCreatorAPI"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.0.0" type="Version"/>
+      <attribute name="osgi.wiring.package" value="LogCreatorAPI"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="2242" type="Long"/>
+      <attribute name="url" value="generated/LogCreatorAPI.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="A1746065C23E2E985A32B050A352012E9C9D56C5A20EE5D4039AFD5BB5F719AE"/>
+    </capability>
+    <capability namespace="bndtools.workspace">
+      <attribute name="bndtools.workspace" value="file:/home/serdar/eclipse-workspace-tebSenaryo-ConsumerProducer"/>
+      <attribute name="project.path" value="/LogCreatorAPI"/>
+    </capability>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.8))"/>
+    </requirement>
+  </resource>
+</repository>

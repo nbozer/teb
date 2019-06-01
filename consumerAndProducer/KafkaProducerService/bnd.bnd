@@ -1,0 +1,19 @@
+-buildpath: \
+	osgi.annotation;version=7.0.0,\
+	osgi.core;version=7.0.0,\
+	osgi.cmpn;version=7.0.0,\
+	LogCreatorAPI;version=latest,\
+	com.fasterxml.jackson.core.jackson-annotations;version=2.9,\
+	com.fasterxml.jackson.core.jackson-core;version=2.9,\
+	com.fasterxml.jackson.core.jackson-databind;version=2.9,\
+	com.google.guava;version=21.0,\
+	org.apache.servicemix.bundles.kafka-clients;version=2.2,\
+	osgi.enroute.base.api;version=2.1
+
+	
+-testpath: \
+	${junit},\
+	${mockito},\
+	${mockito-deps}
+
+Bundle-Version: 1.0.0.${tstamp}

@@ -1,0 +1,14 @@
+com.google.guava;version='[21.0.0,21.0.1)';resolution=file:/home/serdar/eclipse-workspace-tebSenaryo-ConsumerProducer/cnf/local/com.google.guava/com.google.guava-21.0.0.jar
+KafkaProducerService;version=snapshot;resolution=file:/home/serdar/eclipse-workspace-tebSenaryo-ConsumerProducer/KafkaProducerService/generated/KafkaProducerService.jar
+org.apache.felix.gogo.shell;version='[1.0.0,1.0.1)';resolution=file:/home/serdar/.m2/repository/org/apache/felix/org.apache.felix.gogo.shell/1.0.0/org.apache.felix.gogo.shell-1.0.0.jar
+KafkaConsumerService;version=snapshot;resolution=file:/home/serdar/eclipse-workspace-tebSenaryo-ConsumerProducer/KafkaConsumerService/generated/KafkaConsumerService.jar
+com.google.guava;version='[16.0.1,16.0.2)';resolution=file:/home/serdar/eclipse-workspace-tebSenaryo-ConsumerProducer/cnf/local/com.google.guava/com.google.guava-16.0.1.jar
+LogCreatorService;version=snapshot;resolution=file:/home/serdar/eclipse-workspace-tebSenaryo-ConsumerProducer/LogCreatorService/generated/LogCreatorService.jar
+ch.qos.logback.core;version='[1.2.3,1.2.4)';resolution=file:/home/serdar/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar
+org.apache.felix.gogo.command;version='[1.0.2,1.0.3)';resolution=file:/home/serdar/.m2/repository/org/apache/felix/org.apache.felix.gogo.command/1.0.2/org.apache.felix.gogo.command-1.0.2.jar
+LogCreatorAPI;version=snapshot;resolution=file:/home/serdar/eclipse-workspace-tebSenaryo-ConsumerProducer/LogCreatorAPI/generated/LogCreatorAPI.jar
+org.apache.felix.gogo.runtime;version='[1.0.10,1.0.11)';resolution=file:/home/serdar/.m2/repository/org/apache/felix/org.apache.felix.gogo.runtime/1.0.10/org.apache.felix.gogo.runtime-1.0.10.jar
+ch.qos.logback.classic;version='[1.2.3,1.2.4)';resolution=file:/home/serdar/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar
+org.apache.servicemix.bundles.kafka-clients;version='[2.2.0,2.2.1)';resolution=file:/home/serdar/eclipse-workspace-tebSenaryo-ConsumerProducer/cnf/local/org.apache.servicemix.bundles.kafka-clients/org.apache.servicemix.bundles.kafka-clients-2.2.0.jar
+org.apache.felix.scr;version='[2.1.10,2.1.11)';resolution=file:/home/serdar/.m2/repository/org/apache/felix/org.apache.felix.scr/2.1.10/org.apache.felix.scr-2.1.10.jar
+slf4j.api;version='[1.7.25,1.7.26)';resolution=file:/home/serdar/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar

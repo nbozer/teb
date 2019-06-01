@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="KafkaConsumerService" increment="1559421271408">
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="KafkaConsumerService"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="1.0.0.201906012034" type="Version"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="1.0.0.201906012034" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="KafkaConsumerService"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="1.0.0.201906012034" type="Version"/>
+      <attribute name="osgi.wiring.host" value="KafkaConsumerService"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="15775" type="Long"/>
+      <attribute name="url" value="generated/KafkaConsumerService.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="27B84E51DB67C4F0B3B21C49708B05BF39D8E62A3322E688001186A9B8DB9209"/>
+    </capability>
+    <capability namespace="bndtools.workspace">
+      <attribute name="bndtools.workspace" value="file:/home/serdar/eclipse-workspace-tebSenaryo-ConsumerProducer"/>
+      <attribute name="project.path" value="/KafkaConsumerService"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.google.common.util.concurrent)(&amp;(version&gt;=21.0.0)(!(version&gt;=22.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.swing))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.kafka.clients.consumer)(&amp;(version&gt;=2.2.0)(!(version&gt;=3.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.kafka.common)(&amp;(version&gt;=2.2.0)(!(version&gt;=3.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.kafka.common.serialization)(&amp;(version&gt;=2.2.0)(!(version&gt;=3.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.extender">
+      <directive name="filter" value="(&amp;(osgi.extender=osgi.component)(version&gt;=1.4.0)(!(version&gt;=2.0.0)))"/>
+    </requirement>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.8))"/>
+    </requirement>
+  </resource>
+</repository>

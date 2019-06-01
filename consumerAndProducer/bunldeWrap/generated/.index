@@ -1,0 +1,2864 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="bunldeWrap" increment="1559421268000">
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="osgi.identity" value="bunldeWrap.avro-tools"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="bunldeWrap.avro-tools"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.host" value="bunldeWrap.avro-tools"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.avro.data,org.apache.avro.generic,org.apache.avro.io,org.apache.avro.ipc,org.apache.avro.ipc.generic,org.apache.avro.ipc.specific,org.apache.avro.specific,org.apache.avro.test,org.apache.avro.test.namespace,org.codehaus.jackson,org.junit"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.avro,org.codehaus.jackson,org.codehaus.jackson.node"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.compiler.idl"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.avro,org.apache.avro.generic,org.apache.tools.ant,org.apache.tools.ant.types,org.apache.velocity.runtime,org.apache.velocity.runtime.log,org.junit"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.compiler.specific"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.compiler.specific.templates.java.classic"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.avro,org.apache.avro.generic,org.apache.avro.io,org.codehaus.jackson"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.data"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.avro,org.apache.avro.data,org.apache.avro.ipc,org.apache.avro.specific"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.echo"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.avro,org.apache.avro.io"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.file"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.avro,org.apache.avro.data,org.apache.avro.io,org.junit"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.generic"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.avro,org.apache.avro.file,org.apache.avro.generic,org.apache.avro.hadoop.io,org.apache.hadoop.conf,org.apache.hadoop.fs"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.hadoop.file"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.avro,org.apache.avro.generic,org.apache.avro.io,org.apache.avro.mapred,org.apache.hadoop.conf,org.apache.hadoop.fs,org.apache.hadoop.io,org.apache.hadoop.io.compress,org.apache.hadoop.io.serializer,org.apache.hadoop.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.hadoop.io"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.hadoop.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.avro,org.apache.avro.io.parsing,org.apache.avro.util,org.codehaus.jackson"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.io"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.avro,org.apache.avro.io,org.codehaus.jackson"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.io.parsing"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.security.auth.callback,javax.security.sasl,javax.servlet,javax.servlet.http,org.apache.avro,org.apache.avro.data,org.apache.avro.io,org.apache.avro.specific,org.apache.avro.test,org.jboss.netty.buffer,org.jboss.netty.channel,org.jboss.netty.handler.codec.frame,org.jboss.netty.handler.codec.oneone,org.jboss.netty.handler.execution,org.junit,org.mortbay.jetty"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.ipc"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.avro,org.apache.avro.generic,org.apache.avro.io,org.apache.avro.ipc"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.ipc.generic"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.avro,org.apache.avro.io,org.apache.avro.ipc,org.apache.avro.ipc.specific,org.apache.avro.reflect"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.ipc.reflect"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.avro,org.apache.avro.data,org.apache.avro.io,org.apache.avro.ipc,org.apache.avro.ipc.generic,org.apache.avro.specific"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.ipc.specific"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.servlet,javax.servlet.http,org.apache.avro.ipc,org.junit,org.mortbay.jetty.servlet,org.mortbay.resource"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.ipc.stats"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.ipc.stats.templates"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.servlet,javax.servlet.http,org.apache.avro,org.apache.avro.data,org.apache.avro.ipc,org.apache.avro.ipc.specific,org.apache.avro.specific,org.apache.velocity,org.apache.velocity.app,org.junit,org.mortbay.jetty,org.mortbay.jetty.servlet,org.mortbay.resource"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.ipc.trace"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.ipc.trace.templates"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.avro,org.apache.avro.file,org.apache.avro.generic,org.apache.avro.specific,org.apache.avro.util,org.apache.hadoop.conf,org.apache.hadoop.fs,org.apache.hadoop.io,org.apache.hadoop.io.serializer,org.apache.hadoop.mapred,org.apache.hadoop.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.mapred"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.avro,org.apache.avro.specific,org.apache.hadoop.conf,org.apache.hadoop.mapred"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.mapred.tether"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.avro,org.apache.avro.file,org.apache.avro.generic,org.apache.avro.hadoop.io,org.apache.avro.io,org.apache.avro.mapred,org.apache.hadoop.conf,org.apache.hadoop.fs,org.apache.hadoop.io,org.apache.hadoop.mapreduce,org.apache.hadoop.mapreduce.lib.input,org.apache.hadoop.mapreduce.lib.output"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.mapreduce"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.avro,org.apache.avro.io,org.apache.avro.specific"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.reflect"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.avro,org.apache.avro.data,org.apache.avro.generic,org.apache.avro.io,org.junit,test"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.specific"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.avro,org.apache.avro.data,org.apache.avro.ipc,org.apache.avro.specific"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.test"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.avro,org.apache.avro.data,org.apache.avro.specific"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.test.errors"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.avro,org.apache.avro.data,org.apache.avro.ipc,org.apache.avro.specific,org.apache.avro.test.errors,org.apache.avro.test.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.test.namespace"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.avro,org.apache.avro.specific"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.test.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.avro.mapred.tether,org.apache.trevni"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.tool"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.avro.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.collections,org.apache.commons.collections.keyvalue"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.beanutils"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.beanutils"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.beanutils.converters"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.beanutils.expression"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.beanutils,org.apache.commons.collections"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.beanutils.locale"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.beanutils.locale"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.beanutils.locale.converters"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.collections.keyvalue"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.collections"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.collections,org.apache.commons.collections.collection"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.collections.bag"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.collections,org.apache.commons.collections.collection,org.apache.commons.collections.iterators,org.apache.commons.collections.keyvalue,org.apache.commons.collections.map"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.collections.bidimap"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.collections,org.apache.commons.collections.collection"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.collections.buffer"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.collections"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.collections.collection"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.collections"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.collections.comparators"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.collections"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.collections.functors"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.collections"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.collections.iterators"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.collections"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.collections.keyvalue"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.collections,org.apache.commons.collections.collection,org.apache.commons.collections.iterators"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.collections.list"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.collections,org.apache.commons.collections.set"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.collections.map"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.collections,org.apache.commons.collections.collection"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.collections.set"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.compress.archivers"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.compress.archivers"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.compress.archivers.ar"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.compress.archivers"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.compress.archivers.cpio"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.compress.archivers"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.compress.archivers.dump"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.compress.archivers,org.apache.commons.compress.archivers.zip"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.compress.archivers.jar"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.compress.archivers,org.apache.commons.compress.archivers.zip"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.compress.archivers.tar"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.compress.archivers"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.compress.archivers.zip"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.compress.archivers"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.compress.changes"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.compress.compressors"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.compress.compressors"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.compress.compressors.bzip2"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.compress.compressors"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.compress.compressors.gzip"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.compress.compressors"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.compress.compressors.pack200"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.compress.compressors"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.compress.compressors.xz"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.compress.archivers"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.compress.utils"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.naming,javax.sql,javax.xml.parsers,javax.xml.transform,org.apache.commons.collections,org.apache.commons.configuration.beanutils,org.apache.commons.configuration.event,org.apache.commons.configuration.interpol,org.apache.commons.configuration.reloading,org.apache.commons.configuration.tree,org.apache.commons.digester,org.apache.commons.lang.exception,org.apache.commons.lang.text,org.apache.commons.logging,org.w3c.dom,org.xml.sax"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.configuration"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.beanutils,org.apache.commons.configuration,org.apache.commons.configuration.tree"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.configuration.beanutils"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.configuration.event"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.lang.text"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.configuration.interpol"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.configuration"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.configuration.plist"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.configuration"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.configuration.reloading"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.configuration.tree"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.configuration.tree,org.apache.commons.jxpath,org.apache.commons.jxpath.ri,org.apache.commons.jxpath.ri.model"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.configuration.tree.xpath"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.servlet"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.configuration.web"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.xml.parsers,org.apache.commons.collections,org.apache.commons.logging,org.xml.sax,org.xml.sax.helpers"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.digester"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.xml.parsers,org.apache.commons.logging,org.xml.sax"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.digester.parser"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.digester,org.xml.sax"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.digester.plugins"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.digester,org.apache.commons.digester.plugins"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.digester.plugins.strategies"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.digester,org.xml.sax"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.digester.substitution"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.collections,org.apache.commons.digester,org.xml.sax"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.digester.xmlrules"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.lang.exception"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.lang"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.lang.builder"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.lang.enum"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.lang.enums"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.lang.exception"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.lang.math"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.lang.mutable"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.lang.reflect"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.lang.text"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.lang.time"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.logging"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.servlet,org.apache.avalon.framework.logger,org.apache.commons.logging,org.apache.log,org.apache.log4j"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.logging.impl"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.analysis"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math,org.apache.commons.math.analysis"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.analysis.integration"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math,org.apache.commons.math.analysis,org.apache.commons.math.analysis.polynomials,org.apache.commons.math.random"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.analysis.interpolation"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math,org.apache.commons.math.analysis"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.analysis.polynomials"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math,org.apache.commons.math.analysis,org.apache.commons.math.analysis.polynomials,org.apache.commons.math.complex"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.analysis.solvers"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math,org.apache.commons.math.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.complex"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.distribution"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.estimation"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.fraction"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math.random"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.genetics"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math,org.apache.commons.math.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.geometry"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math,org.apache.commons.math.analysis,org.apache.commons.math.fraction,org.apache.commons.math.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.linear"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math,org.apache.commons.math.linear,org.apache.commons.math.ode.events,org.apache.commons.math.ode.nonstiff,org.apache.commons.math.ode.sampling"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.ode"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math,org.apache.commons.math.ode,org.apache.commons.math.ode.sampling"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.ode.events"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math.ode,org.apache.commons.math.ode.events"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.ode.jacobians"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math.linear,org.apache.commons.math.ode,org.apache.commons.math.ode.events,org.apache.commons.math.ode.sampling"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.ode.nonstiff"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math.linear,org.apache.commons.math.ode"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.ode.sampling"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math,org.apache.commons.math.analysis,org.apache.commons.math.linear,org.apache.commons.math.random"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.optimization"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math,org.apache.commons.math.analysis,org.apache.commons.math.optimization"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.optimization.direct"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math,org.apache.commons.math.analysis,org.apache.commons.math.analysis.polynomials,org.apache.commons.math.optimization"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.optimization.fitting"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math,org.apache.commons.math.analysis,org.apache.commons.math.analysis.solvers,org.apache.commons.math.optimization"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.optimization.general"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math.linear,org.apache.commons.math.optimization"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.optimization.linear"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math,org.apache.commons.math.analysis,org.apache.commons.math.optimization"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.optimization.univariate"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math,org.apache.commons.math.linear,org.apache.commons.math.stat.descriptive"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.random"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.special"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.stat"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.stat.clustering"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math,org.apache.commons.math.linear,org.apache.commons.math.stat.ranking"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.stat.correlation"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math,org.apache.commons.math.linear,org.apache.commons.math.stat.descriptive.moment,org.apache.commons.math.stat.descriptive.rank,org.apache.commons.math.stat.descriptive.summary,org.apache.commons.math.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.stat.descriptive"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math,org.apache.commons.math.linear,org.apache.commons.math.stat.descriptive,org.apache.commons.math.stat.descriptive.summary"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.stat.descriptive.moment"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math.stat.descriptive"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.stat.descriptive.rank"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math.stat.descriptive"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.stat.descriptive.summary"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math,org.apache.commons.math.distribution,org.apache.commons.math.stat.descriptive"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.stat.inference"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math.random"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.stat.ranking"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math,org.apache.commons.math.distribution,org.apache.commons.math.linear"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.stat.regression"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math,org.apache.commons.math.analysis,org.apache.commons.math.complex"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.transform"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.math"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.commons.math.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.classification"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.fs,org.apache.hadoop.io"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.conf"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.conf,org.apache.hadoop.fs,org.apache.hadoop.fs.permission,org.apache.hadoop.mapred,org.apache.hadoop.mapreduce,org.apache.hadoop.security"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.filecache"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.logging,org.apache.hadoop.conf,org.apache.hadoop.fs.permission,org.apache.hadoop.io,org.apache.hadoop.security,org.apache.hadoop.security.token,org.apache.hadoop.util,org.xml.sax,org.znerd.xmlenc"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.fs"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.logging,org.apache.commons.net.ftp,org.apache.hadoop.conf,org.apache.hadoop.fs,org.apache.hadoop.fs.permission,org.apache.hadoop.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.fs.ftp"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.conf,org.apache.hadoop.fs,org.apache.hadoop.fs.permission,org.apache.hadoop.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.fs.kfs"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.conf,org.apache.hadoop.fs,org.apache.hadoop.io"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.fs.permission"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.conf,org.apache.hadoop.fs,org.apache.hadoop.fs.permission,org.apache.hadoop.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.fs.s3"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.logging,org.apache.hadoop.conf,org.apache.hadoop.fs,org.apache.hadoop.fs.permission,org.apache.hadoop.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.fs.s3native"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.conf,org.apache.hadoop.fs"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.fs.shell"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.net,javax.net.ssl,org.apache.commons.logging,org.apache.hadoop.conf,org.apache.hadoop.fs,org.apache.hadoop.fs.permission,org.apache.hadoop.hdfs.protocol,org.apache.hadoop.hdfs.security.token.block,org.apache.hadoop.hdfs.security.token.delegation,org.apache.hadoop.hdfs.server.common,org.apache.hadoop.io,org.apache.hadoop.security,org.apache.hadoop.security.authorize,org.apache.hadoop.security.token,org.apache.hadoop.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.hdfs"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.logging,org.apache.hadoop.fs,org.apache.hadoop.fs.permission,org.apache.hadoop.hdfs.security.token.block,org.apache.hadoop.hdfs.security.token.delegation,org.apache.hadoop.hdfs.server.common,org.apache.hadoop.io,org.apache.hadoop.ipc,org.apache.hadoop.net,org.apache.hadoop.security,org.apache.hadoop.security.token"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.hdfs.protocol"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.crypto,org.apache.commons.logging,org.apache.hadoop.hdfs.protocol,org.apache.hadoop.io,org.apache.hadoop.security,org.apache.hadoop.security.token,org.apache.hadoop.security.token.delegation"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.hdfs.security.token.block"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.conf,org.apache.hadoop.fs,org.apache.hadoop.hdfs.server.namenode,org.apache.hadoop.io,org.apache.hadoop.security,org.apache.hadoop.security.token,org.apache.hadoop.security.token.delegation"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.hdfs.security.token.delegation"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.conf,org.apache.hadoop.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.hdfs.server.balancer"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.logging,org.apache.hadoop.hdfs.server.protocol,org.apache.hadoop.io"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.hdfs.server.common"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.servlet,javax.servlet.http,javax.servlet.jsp,org.apache.commons.daemon,org.apache.commons.logging,org.apache.hadoop.conf,org.apache.hadoop.hdfs.protocol,org.apache.hadoop.hdfs.server.common,org.apache.hadoop.hdfs.server.datanode.metrics,org.apache.hadoop.hdfs.server.protocol,org.apache.hadoop.ipc,org.apache.hadoop.util,org.apache.jasper.runtime,org.mortbay.jetty.nio"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.hdfs.server.datanode"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.conf,org.apache.hadoop.metrics2"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.hdfs.server.datanode.metrics"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="com.sun.jersey.spi.container,javax.ws.rs,javax.ws.rs.core,org.apache.commons.logging,org.apache.hadoop.hdfs.web,org.apache.hadoop.hdfs.web.resources,org.apache.hadoop.security"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.hdfs.server.datanode.web.resources"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.servlet,javax.servlet.http,javax.servlet.jsp,org.apache.commons.logging,org.apache.hadoop.conf,org.apache.hadoop.fs,org.apache.hadoop.fs.permission,org.apache.hadoop.hdfs,org.apache.hadoop.hdfs.protocol,org.apache.hadoop.hdfs.security.token.block,org.apache.hadoop.hdfs.security.token.delegation,org.apache.hadoop.hdfs.server.common,org.apache.hadoop.hdfs.server.namenode.metrics,org.apache.hadoop.hdfs.server.protocol,org.apache.hadoop.io,org.apache.hadoop.metrics2,org.apache.hadoop.net,org.apache.hadoop.security,org.apache.hadoop.security.authorize,org.apache.hadoop.security.token,org.apache.hadoop.security.token.delegation,org.apache.hadoop.util,org.apache.jasper.runtime,org.znerd.xmlenc"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.hdfs.server.namenode"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.conf,org.apache.hadoop.metrics2"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.hdfs.server.namenode.metrics"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="com.sun.jersey.spi.container,javax.ws.rs,javax.ws.rs.core,org.apache.commons.logging,org.apache.hadoop.hdfs.web,org.apache.hadoop.hdfs.web.resources,org.apache.hadoop.security"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.hdfs.server.namenode.web.resources"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.logging,org.apache.hadoop.hdfs.protocol,org.apache.hadoop.hdfs.security.token.block,org.apache.hadoop.hdfs.server.common,org.apache.hadoop.hdfs.server.datanode,org.apache.hadoop.hdfs.server.namenode,org.apache.hadoop.io,org.apache.hadoop.ipc,org.apache.hadoop.security"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.hdfs.server.protocol"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.conf,org.apache.hadoop.fs,org.apache.hadoop.hdfs.security.token.delegation,org.apache.hadoop.security,org.apache.hadoop.security.token,org.apache.hadoop.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.hdfs.tools"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.logging"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.hdfs.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="com.sun.jersey.spi.container,javax.servlet,org.apache.hadoop.conf,org.apache.hadoop.fs,org.apache.hadoop.fs.permission,org.apache.hadoop.hdfs.protocol,org.apache.hadoop.hdfs.security.token.delegation,org.apache.hadoop.io,org.apache.hadoop.ipc,org.apache.hadoop.security.authentication.client,org.apache.hadoop.security.authentication.server,org.apache.hadoop.security.token,org.apache.hadoop.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.hdfs.web"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="com.sun.jersey.api.core,com.sun.jersey.core.spi.component,com.sun.jersey.server.impl.inject,com.sun.jersey.spi.inject,javax.ws.rs.core,javax.ws.rs.ext,org.apache.commons.logging,org.apache.hadoop.conf,org.apache.hadoop.fs.permission,org.apache.hadoop.security"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.hdfs.web.resources"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.servlet,javax.servlet.http,org.apache.commons.logging,org.apache.hadoop.conf,org.apache.hadoop.security.authorize,org.mortbay.jetty,org.mortbay.jetty.handler,org.mortbay.jetty.servlet,org.mortbay.jetty.webapp"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.http"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.servlet,org.apache.hadoop.conf,org.apache.hadoop.http"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.http.lib"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.logging,org.apache.hadoop.conf,org.apache.hadoop.fs,org.apache.hadoop.io.compress,org.apache.hadoop.io.serializer,org.apache.hadoop.util,org.apache.hadoop.util.bloom"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.io"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.logging,org.apache.hadoop.conf,org.apache.hadoop.fs"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.io.compress"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.conf,org.apache.hadoop.io.compress"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.io.compress.bzip2"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.conf,org.apache.hadoop.io.compress"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.io.compress.zlib"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.conf,org.apache.hadoop.fs,org.apache.hadoop.io"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.io.file.tfile"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.io.nativeio"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.io.retry"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.conf,org.apache.hadoop.io"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.io.serializer"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.net,org.apache.commons.logging,org.apache.hadoop.conf,org.apache.hadoop.io,org.apache.hadoop.ipc.metrics,org.apache.hadoop.security,org.apache.hadoop.security.authorize,org.apache.hadoop.security.token,org.xml.sax"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.ipc"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.metrics2,org.apache.hadoop.metrics2.lib"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.ipc.metrics"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.management,javax.servlet,javax.servlet.http"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.jmx"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.servlet,javax.servlet.http,org.apache.hadoop.log.metrics"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.log"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.log4j,org.apache.log4j.spi"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.log.metrics"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.crypto,javax.servlet,javax.servlet.http,javax.servlet.jsp,org.apache.commons.logging,org.apache.hadoop.conf,org.apache.hadoop.fs,org.apache.hadoop.fs.permission,org.apache.hadoop.http,org.apache.hadoop.io,org.apache.hadoop.io.compress,org.apache.hadoop.ipc,org.apache.hadoop.mapred.lib,org.apache.hadoop.mapreduce,org.apache.hadoop.mapreduce.security.token,org.apache.hadoop.mapreduce.security.token.delegation,org.apache.hadoop.mapreduce.server.jobtracker,org.apache.hadoop.mapreduce.server.tasktracker,org.apache.hadoop.mapreduce.server.tasktracker.userlogs,org.apache.hadoop.metrics2,org.apache.hadoop.net,org.apache.hadoop.security,org.apache.hadoop.security.authorize,org.apache.hadoop.security.token,org.apache.hadoop.util,org.apache.jasper.runtime,org.apache.log4j,org.apache.log4j.spi"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.mapred"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.mapred"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.mapred.jobcontrol"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.conf,org.apache.hadoop.fs,org.apache.hadoop.io,org.apache.hadoop.mapred"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.mapred.join"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.logging,org.apache.hadoop.conf,org.apache.hadoop.fs,org.apache.hadoop.io,org.apache.hadoop.mapred,org.apache.hadoop.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.mapred.lib"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.io,org.apache.hadoop.mapred,org.apache.hadoop.mapred.jobcontrol"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.mapred.lib.aggregate"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.fs,org.apache.hadoop.io,org.apache.hadoop.mapred,org.apache.hadoop.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.mapred.lib.db"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.logging,org.apache.hadoop.conf,org.apache.hadoop.mapred,org.apache.hadoop.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.mapred.pipes"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.conf,org.apache.hadoop.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.mapred.tools"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.conf,org.apache.hadoop.fs,org.apache.hadoop.fs.permission,org.apache.hadoop.io,org.apache.hadoop.mapred,org.apache.hadoop.security,org.apache.hadoop.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.mapreduce"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.conf,org.apache.hadoop.fs,org.apache.hadoop.io,org.apache.hadoop.mapreduce"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.mapreduce.lib.input"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.io,org.apache.hadoop.mapreduce"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.mapreduce.lib.map"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.fs,org.apache.hadoop.io,org.apache.hadoop.io.compress,org.apache.hadoop.mapred,org.apache.hadoop.mapreduce"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.mapreduce.lib.output"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.mapreduce"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.mapreduce.lib.partition"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.io,org.apache.hadoop.mapreduce"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.mapreduce.lib.reduce"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.crypto,javax.servlet.http,org.apache.hadoop.conf,org.apache.hadoop.fs,org.apache.hadoop.hdfs.security.token.delegation,org.apache.hadoop.io,org.apache.hadoop.mapreduce.security.token,org.apache.hadoop.security,org.apache.hadoop.security.token"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.mapreduce.security"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.crypto,org.apache.hadoop.conf,org.apache.hadoop.io,org.apache.hadoop.mapreduce,org.apache.hadoop.security,org.apache.hadoop.security.token"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.mapreduce.security.token"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.io,org.apache.hadoop.security.token,org.apache.hadoop.security.token.delegation"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.mapreduce.security.token.delegation"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.mapred,org.apache.hadoop.mapreduce"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.mapreduce.server.jobtracker"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.fs,org.apache.hadoop.mapred"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.mapreduce.server.tasktracker"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.conf,org.apache.hadoop.mapred,org.apache.hadoop.mapreduce,org.apache.hadoop.mapreduce.server.tasktracker"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.mapreduce.server.tasktracker.userlogs"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.conf,org.apache.hadoop.fs,org.apache.hadoop.io,org.apache.hadoop.mapred,org.apache.hadoop.mapreduce"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.mapreduce.split"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.servlet,javax.servlet.http,org.apache.commons.logging,org.apache.hadoop.metrics.spi"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.metrics"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.metrics,org.apache.hadoop.metrics.spi"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.metrics.file"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.metrics,org.apache.hadoop.metrics.spi"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.metrics.ganglia"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.log.metrics,org.apache.hadoop.metrics"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.metrics.jvm"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.metrics"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.metrics.spi"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.management,org.apache.hadoop.metrics"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.metrics.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.configuration"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.metrics2"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.configuration,org.apache.hadoop.metrics2"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.metrics2.filter"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.metrics2"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.metrics2.impl"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.metrics2"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.metrics2.lib"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.configuration,org.apache.hadoop.metrics2"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.metrics2.sink"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.configuration,org.apache.commons.logging,org.apache.hadoop.metrics2,org.apache.hadoop.metrics2.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.metrics2.sink.ganglia"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.metrics2"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.metrics2.source"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.management,org.apache.hadoop.metrics2"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.metrics2.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.naming,javax.net,org.apache.commons.logging,org.apache.hadoop.conf,org.apache.hadoop.ipc"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.net"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.io"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.record"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.record.compiler"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.tools.ant,org.apache.tools.ant.types"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.record.compiler.ant"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.record.compiler"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.record.compiler.generated"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.record"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.record.meta"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.net.ssl,javax.security.auth,javax.security.auth.callback,javax.security.auth.login,javax.security.auth.spi,javax.security.sasl,javax.servlet,org.apache.commons.logging,org.apache.hadoop.conf,org.apache.hadoop.fs,org.apache.hadoop.fs.permission,org.apache.hadoop.http,org.apache.hadoop.io,org.apache.hadoop.ipc,org.apache.hadoop.security.authorize,org.apache.hadoop.security.token,org.mortbay.io,org.mortbay.jetty,org.mortbay.jetty.security"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.security"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.security.authentication.client"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.servlet,javax.servlet.http,org.apache.hadoop.security.authentication.client"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.security.authentication.server"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.security.authentication.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.conf,org.apache.hadoop.io,org.apache.hadoop.ipc,org.apache.hadoop.security"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.security.authorize"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.crypto,org.apache.commons.logging,org.apache.hadoop.conf,org.apache.hadoop.io,org.apache.hadoop.security"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.security.token"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.crypto,org.apache.hadoop.io,org.apache.hadoop.security,org.apache.hadoop.security.token"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.security.token.delegation"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.servlet,javax.xml.transform,org.apache.commons.cli,org.apache.commons.logging,org.apache.hadoop.conf,org.apache.hadoop.fs,org.apache.hadoop.fs.permission,org.apache.hadoop.io"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.io"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.util.bloom"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.hadoop.conf"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.hadoop.util.hash"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.junit,org.junit.runner,org.junit.runners"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.trevni"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="junit.framework,org.apache.avro,org.apache.avro.generic,org.apache.avro.mapred,org.apache.hadoop.conf,org.apache.hadoop.fs,org.apache.hadoop.io,org.apache.hadoop.mapred,org.apache.hadoop.util,org.apache.trevni,org.junit"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.trevni.avro"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.avro,org.apache.avro.generic,org.apache.avro.mapred,org.apache.hadoop.io,org.apache.hadoop.mapreduce,org.apache.hadoop.mapreduce.lib.input,org.apache.hadoop.mapreduce.lib.output,org.apache.trevni,org.apache.trevni.avro,org.junit"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.trevni.avro.mapreduce"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.velocity.context,org.apache.velocity.exception,org.apache.velocity.runtime.resource"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.velocity"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.tools.ant,org.apache.tools.ant.taskdefs,org.jdom,org.jdom.output"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.velocity.anakia"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.collections,org.apache.velocity,org.apache.velocity.context,org.apache.velocity.exception,org.apache.velocity.runtime,org.apache.velocity.runtime.log"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.velocity.app"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.velocity.context,org.apache.velocity.runtime,org.apache.velocity.util.introspection"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.velocity.app.event"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.velocity.app.event,org.apache.velocity.context,org.apache.velocity.runtime,org.apache.velocity.util,org.apache.velocity.util.introspection"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.velocity.app.event.implement"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.velocity.context"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.velocity.app.tools"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.velocity.app.event,org.apache.velocity.exception,org.apache.velocity.runtime,org.apache.velocity.runtime.parser.node,org.apache.velocity.runtime.resource,org.apache.velocity.util.introspection"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.velocity.context"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.velocity.convert"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.velocity.runtime.parser,org.apache.velocity.util.introspection"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.velocity.exception"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.velocity.io"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.collections,org.apache.velocity,org.apache.velocity.app.event,org.apache.velocity.context,org.apache.velocity.exception,org.apache.velocity.runtime.directive,org.apache.velocity.runtime.log,org.apache.velocity.runtime.parser,org.apache.velocity.runtime.parser.node,org.apache.velocity.runtime.resource,org.apache.velocity.util.introspection"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.velocity.runtime"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.velocity.runtime.defaults"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.velocity.context,org.apache.velocity.exception,org.apache.velocity.runtime,org.apache.velocity.runtime.log,org.apache.velocity.runtime.parser,org.apache.velocity.runtime.parser.node,org.apache.velocity.util.introspection"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.velocity.runtime.directive"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.servlet,org.apache.commons.logging,org.apache.log.format,org.apache.log4j,org.apache.velocity.runtime,org.apache.velocity.runtime.directive,org.apache.velocity.runtime.parser.node,org.apache.velocity.util.introspection"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.velocity.runtime.log"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.velocity.exception,org.apache.velocity.runtime,org.apache.velocity.runtime.directive,org.apache.velocity.runtime.parser.node"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.velocity.runtime.parser"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.lang.text,org.apache.velocity.context,org.apache.velocity.exception,org.apache.velocity.runtime,org.apache.velocity.runtime.log,org.apache.velocity.runtime.parser,org.apache.velocity.util.introspection"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.velocity.runtime.parser.node"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.velocity.exception,org.apache.velocity.runtime,org.apache.velocity.runtime.log,org.apache.velocity.runtime.resource.loader"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.velocity.runtime.resource"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.sql,org.apache.commons.collections,org.apache.velocity.exception,org.apache.velocity.runtime,org.apache.velocity.runtime.log,org.apache.velocity.runtime.resource,org.apache.velocity.runtime.resource.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.velocity.runtime.resource.loader"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.velocity.runtime.resource.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.velocity.context,org.apache.velocity.runtime.parser.node"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.velocity.runtime.visitor"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.servlet,javax.servlet.http,org.apache.velocity,org.apache.velocity.context,org.apache.velocity.exception"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.velocity.servlet"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.velocity,org.apache.velocity.app,org.apache.velocity.context"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.velocity.texen"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.commons.collections,org.apache.tools.ant,org.apache.velocity.context"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.velocity.texen.ant"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.velocity.texen.defaults"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.velocity.texen.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.velocity.context,org.apache.velocity.runtime,org.apache.velocity.runtime.parser.node,org.apache.velocity.util.introspection"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.velocity.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.apache.velocity.runtime,org.apache.velocity.runtime.log,org.apache.velocity.runtime.parser.node,org.apache.velocity.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.apache.velocity.util.introspection"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.codehaus.jackson.annotate,org.codehaus.jackson.format,org.codehaus.jackson.io,org.codehaus.jackson.sym,org.codehaus.jackson.type,org.codehaus.jackson.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.codehaus.jackson"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.codehaus.jackson.annotate"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.codehaus.jackson"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.codehaus.jackson.format"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.codehaus.jackson,org.codehaus.jackson.format,org.codehaus.jackson.io,org.codehaus.jackson.sym,org.codehaus.jackson.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.codehaus.jackson.impl"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.codehaus.jackson,org.codehaus.jackson.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.codehaus.jackson.io"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.codehaus.jackson,org.codehaus.jackson.annotate,org.codehaus.jackson.format,org.codehaus.jackson.io,org.codehaus.jackson.map.annotate,org.codehaus.jackson.map.deser,org.codehaus.jackson.map.introspect,org.codehaus.jackson.map.jsontype,org.codehaus.jackson.map.jsontype.impl,org.codehaus.jackson.map.ser,org.codehaus.jackson.map.type,org.codehaus.jackson.map.util,org.codehaus.jackson.node,org.codehaus.jackson.schema,org.codehaus.jackson.type"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.codehaus.jackson.map"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.codehaus.jackson.annotate,org.codehaus.jackson.map,org.codehaus.jackson.map.deser,org.codehaus.jackson.map.jsontype"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.codehaus.jackson.map.annotate"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.codehaus.jackson,org.codehaus.jackson.io,org.codehaus.jackson.map,org.codehaus.jackson.map.annotate,org.codehaus.jackson.map.deser.impl,org.codehaus.jackson.map.deser.std,org.codehaus.jackson.map.ext,org.codehaus.jackson.map.introspect,org.codehaus.jackson.map.type,org.codehaus.jackson.map.util,org.codehaus.jackson.node,org.codehaus.jackson.type,org.codehaus.jackson.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.codehaus.jackson.map.deser"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.codehaus.jackson,org.codehaus.jackson.map,org.codehaus.jackson.map.deser,org.codehaus.jackson.map.introspect,org.codehaus.jackson.map.util,org.codehaus.jackson.type,org.codehaus.jackson.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.codehaus.jackson.map.deser.impl"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.codehaus.jackson,org.codehaus.jackson.map,org.codehaus.jackson.map.annotate,org.codehaus.jackson.map.deser,org.codehaus.jackson.map.deser.impl,org.codehaus.jackson.map.introspect,org.codehaus.jackson.map.type,org.codehaus.jackson.map.util,org.codehaus.jackson.type,org.codehaus.jackson.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.codehaus.jackson.map.deser.std"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.codehaus.jackson,org.codehaus.jackson.map"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.codehaus.jackson.map.exc"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.xml.datatype,javax.xml.namespace,org.codehaus.jackson,org.codehaus.jackson.map,org.codehaus.jackson.map.deser.std,org.codehaus.jackson.map.ser.std,org.codehaus.jackson.map.util,org.codehaus.jackson.type,org.joda.time,org.w3c.dom,org.w3c.dom.ls"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.codehaus.jackson.map.ext"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.codehaus.jackson.annotate,org.codehaus.jackson.map,org.codehaus.jackson.map.annotate,org.codehaus.jackson.map.jsontype,org.codehaus.jackson.map.jsontype.impl,org.codehaus.jackson.map.type,org.codehaus.jackson.map.util,org.codehaus.jackson.type"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.codehaus.jackson.map.introspect"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.codehaus.jackson.annotate,org.codehaus.jackson.map,org.codehaus.jackson.map.introspect,org.codehaus.jackson.type"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.codehaus.jackson.map.jsontype"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.codehaus.jackson,org.codehaus.jackson.annotate,org.codehaus.jackson.map,org.codehaus.jackson.map.introspect,org.codehaus.jackson.map.jsontype,org.codehaus.jackson.map.type,org.codehaus.jackson.type,org.codehaus.jackson.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.codehaus.jackson.map.jsontype.impl"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.codehaus.jackson,org.codehaus.jackson.map,org.codehaus.jackson.map.deser,org.codehaus.jackson.map.type,org.codehaus.jackson.type"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.codehaus.jackson.map.module"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.codehaus.jackson,org.codehaus.jackson.io,org.codehaus.jackson.map,org.codehaus.jackson.map.annotate,org.codehaus.jackson.map.ext,org.codehaus.jackson.map.introspect,org.codehaus.jackson.map.ser.impl,org.codehaus.jackson.map.ser.std,org.codehaus.jackson.map.type,org.codehaus.jackson.map.util,org.codehaus.jackson.schema,org.codehaus.jackson.type"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.codehaus.jackson.map.ser"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.codehaus.jackson,org.codehaus.jackson.map,org.codehaus.jackson.map.ser,org.codehaus.jackson.map.ser.std,org.codehaus.jackson.type"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.codehaus.jackson.map.ser.impl"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.codehaus.jackson,org.codehaus.jackson.map,org.codehaus.jackson.map.annotate,org.codehaus.jackson.map.introspect,org.codehaus.jackson.map.ser,org.codehaus.jackson.map.ser.impl,org.codehaus.jackson.map.util,org.codehaus.jackson.node,org.codehaus.jackson.schema,org.codehaus.jackson.type,org.codehaus.jackson.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.codehaus.jackson.map.ser.std"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.codehaus.jackson,org.codehaus.jackson.map,org.codehaus.jackson.type"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.codehaus.jackson.map.type"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.codehaus.jackson,org.codehaus.jackson.io,org.codehaus.jackson.map,org.codehaus.jackson.map.introspect,org.codehaus.jackson.map.type,org.codehaus.jackson.type"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.codehaus.jackson.map.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.codehaus.jackson,org.codehaus.jackson.impl,org.codehaus.jackson.map"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.codehaus.jackson.node"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.codehaus.jackson,org.codehaus.jackson.annotate,org.codehaus.jackson.map,org.codehaus.jackson.node"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.codehaus.jackson.schema"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.codehaus.jackson.sym"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.codehaus.jackson.type"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.codehaus.jackson,org.codehaus.jackson.impl,org.codehaus.jackson.io"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.codehaus.jackson.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.jboss.netty.channel,org.jboss.netty.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.bootstrap"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.buffer"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.jboss.netty.buffer,org.jboss.netty.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.channel"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.jboss.netty.channel"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.channel.group"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.jboss.netty.channel"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.channel.local"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.jboss.netty.channel"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.channel.socket"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.net.ssl,javax.servlet,javax.servlet.http,org.jboss.netty.buffer,org.jboss.netty.channel,org.jboss.netty.channel.socket"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.channel.socket.http"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.jboss.netty.channel,org.jboss.netty.channel.socket,org.jboss.netty.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.channel.socket.nio"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.jboss.netty.channel,org.jboss.netty.channel.socket"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.channel.socket.oio"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.container.microcontainer"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.osgi.framework"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.container.osgi"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.container.spring"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.handler.codec"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.jboss.netty.buffer,org.jboss.netty.channel,org.jboss.netty.handler.codec.oneone"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.handler.codec.base64"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.jboss.netty.channel,org.jboss.netty.handler.codec.oneone"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.handler.codec.compression"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.jboss.netty.buffer,org.jboss.netty.channel"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.handler.codec.embedder"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.jboss.netty.buffer,org.jboss.netty.channel,org.jboss.netty.handler.codec.oneone"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.handler.codec.frame"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.jboss.netty.buffer,org.jboss.netty.channel,org.jboss.netty.handler.codec.embedder,org.jboss.netty.handler.codec.oneone,org.jboss.netty.handler.codec.replay"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.handler.codec.http"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.jboss.netty.buffer,org.jboss.netty.channel,org.jboss.netty.handler.codec.oneone,org.jboss.netty.handler.codec.replay"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.handler.codec.http.websocket"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.jboss.netty.buffer,org.jboss.netty.channel,org.jboss.netty.handler.codec.frame,org.jboss.netty.handler.codec.http,org.jboss.netty.handler.codec.oneone,org.jboss.netty.handler.codec.replay"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.handler.codec.http.websocketx"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.jboss.netty.channel"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.handler.codec.oneone"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="com.google.protobuf,org.jboss.netty.buffer,org.jboss.netty.channel,org.jboss.netty.handler.codec.frame,org.jboss.netty.handler.codec.oneone"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.handler.codec.protobuf"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.jboss.netty.buffer,org.jboss.netty.channel"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.handler.codec.replay"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.jboss.netty.buffer,org.jboss.netty.channel,org.jboss.netty.handler.codec.http"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.handler.codec.rtsp"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.jboss.netty.buffer,org.jboss.netty.channel,org.jboss.netty.handler.codec.frame,org.jboss.netty.handler.codec.oneone,org.jboss.netty.handler.codec.replay"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.handler.codec.serialization"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.jboss.netty.buffer,org.jboss.netty.channel,org.jboss.netty.handler.codec.frame,org.jboss.netty.handler.codec.http,org.jboss.netty.handler.codec.oneone"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.handler.codec.spdy"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.jboss.netty.channel,org.jboss.netty.handler.codec.oneone"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.handler.codec.string"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.jboss.netty.channel,org.jboss.netty.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.handler.execution"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.jboss.netty.channel,org.jboss.netty.logging"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.handler.logging"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.jboss.netty.channel"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.handler.queue"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.net.ssl,org.jboss.netty.buffer,org.jboss.netty.channel,org.jboss.netty.handler.codec.frame"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.handler.ssl"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.jboss.netty.channel"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.handler.stream"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.jboss.netty.channel,org.jboss.netty.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.handler.timeout"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.osgi.framework,org.osgi.service.log"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.logging"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.util.internal"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.netty.util.internal.jzlib"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.kosmix.kosmosfs.access"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mortbay.component"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.mortbay.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mortbay.io"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.mortbay.io"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mortbay.io.bio"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.mortbay.component,org.mortbay.io,org.mortbay.thread"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mortbay.io.nio"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.servlet,javax.servlet.http,org.mortbay.component,org.mortbay.io,org.mortbay.jetty.handler,org.mortbay.jetty.security,org.mortbay.jetty.servlet,org.mortbay.resource,org.mortbay.thread,org.mortbay.util,org.mortbay.util.ajax"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mortbay.jetty"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.mortbay.io,org.mortbay.io.bio,org.mortbay.jetty"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mortbay.jetty.bio"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.mortbay.component,org.mortbay.jetty,org.mortbay.jetty.handler,org.mortbay.resource,org.mortbay.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mortbay.jetty.deployer"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.servlet,javax.servlet.http,org.mortbay.component,org.mortbay.jetty,org.mortbay.jetty.servlet,org.mortbay.resource,org.mortbay.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mortbay.jetty.handler"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.mortbay.io,org.mortbay.io.nio,org.mortbay.jetty,org.mortbay.thread,org.mortbay.util.ajax"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mortbay.jetty.nio"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.net.ssl,javax.servlet,javax.servlet.http,org.mortbay.component,org.mortbay.io,org.mortbay.jetty,org.mortbay.jetty.bio,org.mortbay.jetty.handler,org.mortbay.resource"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mortbay.jetty.security"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.servlet,javax.servlet.http,org.mortbay.component,org.mortbay.jetty,org.mortbay.jetty.handler,org.mortbay.jetty.security,org.mortbay.resource"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mortbay.jetty.servlet"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.servlet,javax.servlet.http,org.mortbay.jetty,org.mortbay.jetty.handler,org.mortbay.jetty.security,org.mortbay.jetty.servlet,org.mortbay.resource,org.mortbay.xml"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mortbay.jetty.webapp"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mortbay.log"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mortbay.resource"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.servlet,javax.servlet.http,org.mortbay.util"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mortbay.servlet"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.servlet,javax.servlet.http,org.mortbay.servlet"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mortbay.servlet.jetty"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.mortbay.component"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mortbay.thread"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.mortbay.thread"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mortbay.util"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="javax.servlet,javax.servlet.http"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mortbay.util.ajax"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.xml.sax"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.mortbay.xml"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.slf4j.spi"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.slf4j"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.slf4j,org.slf4j.spi"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.slf4j.helpers"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.slf4j,org.slf4j.helpers,org.slf4j.spi"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.slf4j.impl"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.slf4j"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.slf4j.spi"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.tukaani.xz"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.tukaani.xz"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.tukaani.xz.check"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.tukaani.xz.common"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.tukaani.xz.delta"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.tukaani.xz,org.tukaani.xz.common"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.tukaani.xz.index"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.tukaani.xz.lz"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.tukaani.xz.lz,org.tukaani.xz.rangecoder"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.tukaani.xz.lzma"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.tukaani.xz.rangecoder"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.tukaani.xz.simple"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.osgi.framework"/>
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.xerial.snappy"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.xerial.snappy.native"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.xerial.snappy.native.Linux.amd64"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.xerial.snappy.native.Linux.arm"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.xerial.snappy.native.Linux.armhf"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.xerial.snappy.native.Linux.i386"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.xerial.snappy.native.Mac.i386"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.xerial.snappy.native.Mac.x86_64"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.xerial.snappy.native.OpenBSD.amd64"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.xerial.snappy.native.OpenBSD.i386"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.xerial.snappy.native.Windows.amd64"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <attribute name="version" value="1.7.7" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.xerial.snappy.native.Windows.x86"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="12109293" type="Long"/>
+      <attribute name="url" value="generated/bunldeWrap.avro-tools.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="69F303CD0D238DF842D36FE214571599D593DC16A41C04F924ADCEF56298ECAC"/>
+    </capability>
+    <capability namespace="bndtools.workspace">
+      <attribute name="bndtools.workspace" value="file:/home/serdar/eclipse-workspace-tebSenaryo-ConsumerProducer"/>
+      <attribute name="project.path" value="/bunldeWrap"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.google.protobuf))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.sun.jersey.api.core))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.sun.jersey.core.spi.component))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.sun.jersey.server.impl.inject))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.sun.jersey.spi.container))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.sun.jersey.spi.container.servlet))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.sun.jersey.spi.inject))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.sun.security.auth))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.sun.security.auth.module))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.thoughtworks.paranamer))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=com.werken.xpath))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.crypto))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.crypto.spec))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.mail.internet))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.management))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.management.openmbean))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.naming))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.naming.directory))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.net))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.net.ssl))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.security.auth))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.security.auth.callback))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.security.auth.kerberos))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.security.auth.login))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.security.auth.spi))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.security.cert))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.security.sasl))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.servlet))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.servlet.http))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.servlet.jsp))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.sql))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.tools))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.ws.rs))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.ws.rs.core))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.ws.rs.ext))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.xml.datatype))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.xml.namespace))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.xml.parsers))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.xml.transform))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.xml.transform.dom))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=javax.xml.transform.stream))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=joptsimple))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=junit.framework))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.avalon.framework.logger))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.avro)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.avro.compiler.idl)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.avro.compiler.specific)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.avro.data)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.avro.file)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.avro.generic)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.avro.hadoop.file)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.avro.hadoop.io)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.avro.hadoop.util)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.avro.io)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.avro.io.parsing)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.avro.ipc)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.avro.ipc.generic)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.avro.ipc.reflect)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.avro.ipc.specific)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.avro.mapred)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.avro.mapred.tether)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.avro.mapreduce)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.avro.reflect)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.avro.specific)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.avro.test)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.avro.test.errors)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.avro.test.namespace)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.avro.test.util)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.avro.util)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.beanutils)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.beanutils.converters)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.beanutils.locale)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.beanutils.locale.converters)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.cli))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.codec.binary))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.collections)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.collections.bag)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.collections.buffer)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.collections.collection)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.collections.comparators)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.collections.functors)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.collections.iterators)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.collections.keyvalue)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.collections.list)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.collections.map)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.collections.set)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.compress.archivers)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.compress.archivers.ar)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.compress.archivers.cpio)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.compress.archivers.dump)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.compress.archivers.jar)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.compress.archivers.tar)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.compress.archivers.zip)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.compress.compressors)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.compress.compressors.bzip2)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.compress.compressors.gzip)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.compress.compressors.pack200)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.compress.compressors.xz)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.compress.utils)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.configuration)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.configuration.beanutils)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.configuration.event)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.configuration.interpol)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.configuration.plist)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.configuration.reloading)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.configuration.tree)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.daemon))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.digester)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.digester.parser)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.digester.plugins)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.digester.plugins.strategies)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.digester.substitution)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.digester.xmlrules)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.httpclient))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.httpclient.methods))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.jxpath))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.jxpath.ri))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.jxpath.ri.compiler))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.jxpath.ri.model))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.lang)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.lang.builder)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.lang.exception)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.lang.math)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.lang.reflect)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.lang.text)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.logging)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.logging.impl)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.math)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.math.analysis)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.math.analysis.polynomials)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.math.analysis.solvers)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.math.complex)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.math.distribution)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.math.fraction)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.math.linear)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.math.ode)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.math.ode.events)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.math.ode.nonstiff)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.math.ode.sampling)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.math.optimization)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.math.random)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.math.special)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.math.stat)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.math.stat.descriptive)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.math.stat.descriptive.moment)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.math.stat.descriptive.rank)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.math.stat.descriptive.summary)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.math.stat.ranking)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.math.stat.regression)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.math.util)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.commons.net.ftp))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.conf)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.filecache)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.fs)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.fs.permission)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.fs.s3)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.fs.shell)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.hdfs)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.hdfs.protocol)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.hdfs.security.token.block)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.hdfs.security.token.delegation)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.hdfs.server.common)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.hdfs.server.datanode)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.hdfs.server.datanode.metrics)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.hdfs.server.datanode.web.resources)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.hdfs.server.namenode)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.hdfs.server.namenode.metrics)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.hdfs.server.namenode.web.resources)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.hdfs.server.protocol)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.hdfs.tools)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.hdfs.util)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.hdfs.web)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.hdfs.web.resources)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.http)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.io)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.io.compress)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.io.compress.bzip2)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.io.compress.zlib)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.io.nativeio)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.io.retry)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.io.serializer)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.ipc)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.ipc.metrics)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.jmx)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.log)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.log.metrics)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.mapred)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.mapred.jobcontrol)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.mapred.lib)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.mapred.pipes)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.mapreduce)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.mapreduce.lib.input)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.mapreduce.lib.output)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.mapreduce.lib.partition)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.mapreduce.security)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.mapreduce.security.token)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.mapreduce.security.token.delegation)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.mapreduce.server.jobtracker)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.mapreduce.server.tasktracker)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.mapreduce.server.tasktracker.userlogs)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.mapreduce.split)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.mapreduce.task))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.metrics)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.metrics.spi)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.metrics2)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.metrics2.impl)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.metrics2.lib)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.metrics2.source)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.metrics2.util)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.net)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.record)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.record.compiler)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.record.compiler.generated)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.security)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.security.authentication.client)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.security.authentication.server)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.security.authentication.util)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.security.authorize)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.security.token)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.security.token.delegation)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.util)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.util.bloom)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.hadoop.util.hash)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.jasper.runtime))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.log))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.log.format))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.log.output.io))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.log4j))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.log4j.helpers))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.log4j.spi))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.oro.text.perl))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.tools.ant))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.tools.ant.taskdefs))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.tools.ant.types))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.trevni)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.trevni.avro)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.velocity)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.velocity.app)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.velocity.app.event)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.velocity.context)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.velocity.exception)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.velocity.io)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.velocity.runtime)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.velocity.runtime.directive)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.velocity.runtime.log)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.velocity.runtime.parser)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.velocity.runtime.parser.node)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.velocity.runtime.resource)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.velocity.runtime.resource.loader)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.velocity.runtime.resource.util)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.velocity.texen)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.velocity.util)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.velocity.util.introspection)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.xerces.impl))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.codehaus.jackson)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.codehaus.jackson.annotate)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.codehaus.jackson.format)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.codehaus.jackson.impl)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.codehaus.jackson.io)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.codehaus.jackson.map)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.codehaus.jackson.map.annotate)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.codehaus.jackson.map.deser)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.codehaus.jackson.map.deser.impl)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.codehaus.jackson.map.deser.std)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.codehaus.jackson.map.exc)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.codehaus.jackson.map.ext)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.codehaus.jackson.map.introspect)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.codehaus.jackson.map.jsontype)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.codehaus.jackson.map.jsontype.impl)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.codehaus.jackson.map.ser)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.codehaus.jackson.map.ser.impl)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.codehaus.jackson.map.ser.std)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.codehaus.jackson.map.type)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.codehaus.jackson.map.util)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.codehaus.jackson.node)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.codehaus.jackson.schema)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.codehaus.jackson.sym)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.codehaus.jackson.type)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.codehaus.jackson.util)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.ietf.jgss))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jboss.logging))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jboss.netty.bootstrap)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jboss.netty.buffer)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jboss.netty.channel)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jboss.netty.channel.group)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jboss.netty.channel.local)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jboss.netty.channel.socket)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jboss.netty.channel.socket.nio)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jboss.netty.handler.codec)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jboss.netty.handler.codec.base64)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jboss.netty.handler.codec.compression)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jboss.netty.handler.codec.embedder)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jboss.netty.handler.codec.frame)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jboss.netty.handler.codec.http)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jboss.netty.handler.codec.oneone)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jboss.netty.handler.codec.replay)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jboss.netty.handler.execution)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jboss.netty.handler.ssl)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jboss.netty.logging)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jboss.netty.util)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jboss.netty.util.internal)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jboss.netty.util.internal.jzlib)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jdom))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jdom.input))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jdom.output))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jets3t.service))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jets3t.service.impl.rest.httpclient))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jets3t.service.model))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jets3t.service.security))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.joda.time))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.joda.time.format))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.junit))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.junit.runner))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.junit.runners))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.kosmix.kosmosfs.access)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.mortbay.component)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.mortbay.io)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.mortbay.io.bio)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.mortbay.io.nio)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.mortbay.jetty)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.mortbay.jetty.bio)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.mortbay.jetty.deployer)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.mortbay.jetty.handler)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.mortbay.jetty.nio)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.mortbay.jetty.security)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.mortbay.jetty.servlet)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.mortbay.jetty.webapp)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.mortbay.log)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.mortbay.resource)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.mortbay.servlet)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.mortbay.thread)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.mortbay.util)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.mortbay.util.ajax)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.mortbay.xml)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.framework))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.service.log))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.util.tracker))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.slf4j)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.slf4j.helpers)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.slf4j.impl)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.slf4j.spi)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.tukaani.xz)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.tukaani.xz.check)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.tukaani.xz.common)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.tukaani.xz.delta)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.tukaani.xz.index)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.tukaani.xz.lz)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.tukaani.xz.lzma)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.tukaani.xz.rangecoder)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.tukaani.xz.simple)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.w3c.dom))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.w3c.dom.bootstrap))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.w3c.dom.ls))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.xerial.snappy)(&amp;(version&gt;=1.7.0)(!(version&gt;=2.0.0))))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.xml.sax))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.xml.sax.helpers))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.znerd.xmlenc))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=sun.misc))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=sun.net.dns))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=sun.net.util))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=sun.security.jgss))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=sun.security.jgss.krb5))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=sun.security.krb5))"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=test))"/>
+    </requirement>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.6))"/>
+    </requirement>
+  </resource>
+</repository>

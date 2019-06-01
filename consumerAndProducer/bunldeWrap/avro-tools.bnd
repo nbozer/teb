@@ -1,0 +1,7 @@
+-dsannotations: *
+-metatypeannotations: *
+Service-Component: *
+
+-classpath: jar/avro-tools-1.7.7.jar
+Bundle-Version: 1.7.7
+Export-Package: org.*;version="1.7.7"
