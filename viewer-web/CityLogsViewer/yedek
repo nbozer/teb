@@ -1,0 +1,598 @@
+
+
+<%@ page language="java" contentType="text/html; charset=UTF-8"	pageEncoding="UTF-8"%>
+<%@ page import="java.util.*" %>
+<%@ page import="java.io.*" %>
+<%@ page import="com.google.gson.*"%>
+ 
+<%
+String dataPointsIstanbul = "";
+String dataPointsTokyo= "";
+String dataPointsBeijing= "";
+String dataPointsLondon= "";
+String dataPointsMoskow= "";
+
+Gson gsonObj = new Gson();
+Map<Object,Object> map = null;
+List<Map<Object,Object>> list = new ArrayList<Map<Object,Object>>();
+/*  
+map = new HashMap<Object,Object>(); map.put("x", 0); map.put("y", 1.293E-03); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 10); map.put("y", 3.982E-04); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 20); map.put("y", 8.269E-05); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 30); map.put("y", 1.554E-05); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 40); map.put("y", 3.148E-06); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 50); map.put("y", 8.280E-07); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 60); map.put("y", 2.328E-07); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 70); map.put("y", 5.761E-08); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 80); map.put("y", 1.296E-08); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 90); map.put("y", 2.702E-09); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 100); map.put("y", 4.535E-10); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 110); map.put("y", 6.809E-11); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 120); map.put("y", 1.604E-11); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 130); map.put("y", 6.210E-12); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 140); map.put("y", 3.143E-12); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 150); map.put("y", 1.825E-12); list.add(map);
+ 
+String dataPoints1 = gsonObj.toJson(list);
+ 
+list = new ArrayList<Map<Object,Object>>();
+map = new HashMap<Object,Object>(); map.put("x", 0); map.put("y", 272.1); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 10); map.put("y", 214.9); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 20); map.put("y", 206.7); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 30); map.put("y", 216.5); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 40); map.put("y", 250.6); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 50); map.put("y", 258.5); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 60); map.put("y", 238.1); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 70); map.put("y", 221.7); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 80); map.put("y", 210.2); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 90); map.put("y", 189); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 100); map.put("y", 182.3); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 110); map.put("y", 255.4); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 120); map.put("y", 400.2); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 130); map.put("y", 534.3); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 140); map.put("y", 630.4); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 150); map.put("y", 700.5); list.add(map);
+ 
+String dataPoints2 = gsonObj.toJson(list); */
+
+
+String jspPath = "/tmp/jspLog.txt";
+BufferedReader reader = new BufferedReader(new FileReader(jspPath));
+StringBuilder sb = new StringBuilder();
+String line;
+
+//line = reader.readLine();
+out.println(sb.toString());
+//System.out.println("line" +line);
+
+//while(true){
+	
+	while((line = reader.readLine())!= null)
+	{//cityName:Tokyo,logCount:1,systemTime:1559389691438
+		out.println(sb.toString());
+		//map = new HashMap<Object,Object>(); map.put("x", 0); map.put("y", 1.293E-03); list.add(map);
+//		String dataPoints1 = gsonObj.toJson(list);
+		 String[] logSplitted = line.split(",");
+		 String[] citySplited = logSplitted[0].split(":");
+		 String[] logCountSplited = logSplitted[1].split(":");
+		 String[] systemTimeSplited = logSplitted[2].split(":");
+		 
+try{
+	list = new ArrayList<Map<Object,Object>>();
+	 map = new HashMap<Object,Object>(); 
+	 int time = Integer.valueOf( systemTimeSplited[1].charAt(9) + systemTimeSplited[1].charAt(10) +systemTimeSplited[1].charAt(11)) / 5;
+	 //char[] time 
+	 map.put("x", time); 
+	 map.put("y", logCountSplited[1]);
+	 list.add(map);
+
+	 if(citySplited[1].equals("Istanbul")){
+		 dataPointsIstanbul = gsonObj.toJson(list);
+	 }else if(citySplited[1].equals( "Tokyo")) {
+		 dataPointsTokyo = gsonObj.toJson(list);
+	 }else if(citySplited[1].equals("Beijing")) {
+		 dataPointsBeijing = gsonObj.toJson(list);
+	 }else if(citySplited[1].equals("London")) {
+		 dataPointsLondon = gsonObj.toJson(list);
+	 }else if(citySplited[1].equals( "Moskow")) {
+		 dataPointsMoskow = gsonObj.toJson(list);
+	 }
+}catch(Exception e){
+	out.println(e.getMessage());
+}
+		 
+		 
+		 
+	}
+	
+//}
+
+
+
+%>
+ 
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript">
+window.onload = function() { 
+ 
+	var chart = new CanvasJS.Chart("chartContainer", {
+		animationEnabled: true,
+		zoomEnabled: true,
+		theme: "light2",
+		title: {
+			text: "CityLogs"
+		},
+		axisX: {
+			title: "time",
+			valueFormatString: "#,##0 sec"
+		},
+		axisY: {
+			logarithmic: true, //change it to false
+			title: "LogCount",
+			titleFontColor: "#6D78AD",
+			lineColor: "#6D78AD",
+			gridThickness: 0,
+			lineThickness: 1,
+			valueFormatString: "#,#",
+			//includeZero: false
+		},
+		axisY2: {
+			title: "LogCount (K)",
+			titleFontColor: "#51CDA0",
+			logarithmic: false, //change it to true
+			lineColor: "#51CDA0",
+			gridThickness: 0,
+			lineThickness: 1
+		},
+		toolTip: {
+			shared: true
+		},
+		legend: {
+			verticalAlign: "top",
+			dockInsidePlotArea: true
+		},
+		data: [{
+			type: "line",
+			yValueFormatString: "#",
+			xValueFormatString: "# ",
+			showInLegend: true,
+			name: "Istanbul",
+			legendText: "{name} (in Log Scale)",
+			dataPoints: <%out.print(dataPointsIstanbul);%>
+		},
+		{
+			type: "line",
+			yValueFormatString: "# ",
+			xValueFormatString: "# ",
+			axisYType: "secondary",
+			showInLegend: true,
+			name: "Tokyo",
+			legendText: "{name} (in Linear Scale)",
+			dataPoints: <%out.print(dataPointsTokyo);%>
+		},
+		{
+			type: "line",
+			yValueFormatString: "# ",
+			xValueFormatString: "# ",
+			axisYType: "secondary",
+			showInLegend: true,
+			name: "Beijing",
+			legendText: "{name} (in Linear Scale)",
+			dataPoints: <%out.print(dataPointsBeijing);%>
+		},{
+			type: "line",
+			yValueFormatString: "# ",
+			xValueFormatString: "# ",
+			axisYType: "secondary",
+			showInLegend: true,
+			name: "London",
+			legendText: "{name} (in Linear Scale)",
+			dataPoints: <%out.print(dataPointsLondon);%>
+		},{
+			type: "line",
+			yValueFormatString: "# ",
+			xValueFormatString: "# ",
+			axisYType: "secondary",
+			showInLegend: true,
+			name: "Moskow",
+			legendText: "{name} (in Linear Scale)",
+			dataPoints: <%out.print(dataPointsMoskow);%>
+		}]
+	});
+	chart.render();
+ 
+}
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html>  
+
+
+
+-----------------
+
+
+
+<%@ page language="java" contentType="text/html; charset=UTF-8"	pageEncoding="UTF-8"%>
+<%@ page import="java.util.*" %>
+<%@ page import="java.io.*" %>
+<%@ page import="com.google.gson.*"%>
+ 
+<%
+String dataPointsIstanbul = "";
+String dataPointsTokyo= "";
+String dataPointsBeijing= "";
+String dataPointsLondon= "";
+String dataPointsMoskow= "";
+
+Gson gsonObj = new Gson();
+Map<Object,Object> map = null;
+List<Map<Object,Object>> list = new ArrayList<Map<Object,Object>>();
+List<Map<Object,Object>> listIstanbul = new ArrayList<Map<Object,Object>>();
+List<Map<Object,Object>> listTokyo = new ArrayList<Map<Object,Object>>();
+List<Map<Object,Object>> listBeijing = new ArrayList<Map<Object,Object>>();
+List<Map<Object,Object>> listLondon = new ArrayList<Map<Object,Object>>();
+List<Map<Object,Object>> listMoskow = new ArrayList<Map<Object,Object>>();
+
+
+/*  
+map = new HashMap<Object,Object>(); map.put("x", 0); map.put("y", 1.293E-03); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 10); map.put("y", 3.982E-04); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 20); map.put("y", 8.269E-05); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 30); map.put("y", 1.554E-05); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 40); map.put("y", 3.148E-06); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 50); map.put("y", 8.280E-07); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 60); map.put("y", 2.328E-07); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 70); map.put("y", 5.761E-08); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 80); map.put("y", 1.296E-08); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 90); map.put("y", 2.702E-09); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 100); map.put("y", 4.535E-10); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 110); map.put("y", 6.809E-11); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 120); map.put("y", 1.604E-11); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 130); map.put("y", 6.210E-12); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 140); map.put("y", 3.143E-12); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 150); map.put("y", 1.825E-12); list.add(map);
+ 
+String dataPoints1 = gsonObj.toJson(list);
+ 
+list = new ArrayList<Map<Object,Object>>();
+map = new HashMap<Object,Object>(); map.put("x", 0); map.put("y", 272.1); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 10); map.put("y", 214.9); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 20); map.put("y", 206.7); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 30); map.put("y", 216.5); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 40); map.put("y", 250.6); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 50); map.put("y", 258.5); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 60); map.put("y", 238.1); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 70); map.put("y", 221.7); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 80); map.put("y", 210.2); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 90); map.put("y", 189); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 100); map.put("y", 182.3); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 110); map.put("y", 255.4); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 120); map.put("y", 400.2); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 130); map.put("y", 534.3); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 140); map.put("y", 630.4); list.add(map);
+map = new HashMap<Object,Object>(); map.put("x", 150); map.put("y", 700.5); list.add(map);
+ 
+String dataPoints2 = gsonObj.toJson(list); */
+
+
+String jspPath = "/tmp/jspLog.txt";
+BufferedReader reader = new BufferedReader(new FileReader(jspPath));
+StringBuilder sb = new StringBuilder();
+String line;
+
+//line = reader.readLine();
+out.println(sb.toString());
+//System.out.println("line" +line);
+
+//while(true){
+	int time = 0;
+	while((line = reader.readLine())!= null)
+	{//cityName:Tokyo,logCount:1,systemTime:1559389691438
+		out.println(sb.toString());
+		//map = new HashMap<Object,Object>(); map.put("x", 0); map.put("y", 1.293E-03); list.add(map);
+//		String dataPoints1 = gsonObj.toJson(list);
+		 String[] logSplitted = line.split(",");
+		 String[] citySplited = logSplitted[0].split(":");
+		 String[] logCountSplited = logSplitted[1].split(":");
+		 String[] systemTimeSplited = logSplitted[2].split(":");
+		 
+try{
+	
+	 map = new HashMap<Object,Object>(); 
+	// int time = Integer.valueOf( systemTimeSplited[1].charAt(9) + systemTimeSplited[1].charAt(10) +systemTimeSplited[1].charAt(11)) / 5;
+		time++;
+	 //char[] time 
+	 map.put("x", time/5); 
+	 map.put("y", logCountSplited[1]);
+	 //list.add(map);
+
+	 if(citySplited[1].equals("Istanbul")){
+		 listIstanbul.add(map);
+		 dataPointsIstanbul = gsonObj.toJson(listIstanbul);
+	 }else if(citySplited[1].equals( "Tokyo")) {
+		 listTokyo.add(map);
+		 dataPointsTokyo = gsonObj.toJson(listTokyo);
+	 }else if(citySplited[1].equals("Beijing")) {
+		 listBeijing.add(map);
+		 dataPointsBeijing = gsonObj.toJson(dataPointsBeijing);
+	 }else if(citySplited[1].equals("London")) {
+		 listLondon.add(map);
+		 dataPointsLondon = gsonObj.toJson(listLondon);
+	 }else if(citySplited[1].equals( "Moskow")) {
+		 listMoskow.add(map);
+		 dataPointsMoskow = gsonObj.toJson(listMoskow);
+	 }
+}catch(Exception e){
+	out.println(e.getMessage());
+}
+}
+	//out.println("OK");
+%>
+ 
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript">
+window.onload = function() { 
+ 
+	var chart = new CanvasJS.Chart("chartContainer", {
+		animationEnabled: true,
+		zoomEnabled: true,
+		theme: "light2",
+		title: {
+			text: "CityLogs"
+		},
+		axisX: {
+			title: "time",
+			valueFormatString: "#,##0 sec"
+		},
+		axisY: {
+			logarithmic: true, //change it to false
+			title: "LogCount",
+			titleFontColor: "#6D78AD",
+			lineColor: "#6D78AD",
+			gridThickness: 0,
+			lineThickness: 1,
+			valueFormatString: "#,#",
+			//includeZero: false
+		},
+		axisY2: {
+			title: "LogCount (K)",
+			titleFontColor: "#51CDA0",
+			logarithmic: false, //change it to true
+			lineColor: "#51CDA0",
+			gridThickness: 0,
+			lineThickness: 1
+		},
+		toolTip: {
+			shared: true
+		},
+		legend: {
+			verticalAlign: "top",
+			dockInsidePlotArea: true
+		},
+		data: [{
+			type: "line",
+			yValueFormatString: "#",
+			xValueFormatString: "# ",
+			showInLegend: true,
+			name: "Istanbul",
+			legendText: "{name} (in Log Scale)",
+			dataPoints: <%out.print(dataPointsIstanbul);%>
+		},
+		{
+			type: "line",
+			yValueFormatString: "# ",
+			xValueFormatString: "# ",
+			axisYType: "secondary",
+			showInLegend: true,
+			name: "Tokyo",
+			legendText: "{name} (in Linear Scale)",
+			dataPoints: <%out.print(dataPointsTokyo);%>
+		},
+		{
+			type: "line",
+			yValueFormatString: "# ",
+			xValueFormatString: "# ",
+			axisYType: "secondary",
+			showInLegend: true,
+			name: "Beijing",
+			legendText: "{name} (in Linear Scale)",
+			dataPoints: <%out.print(dataPointsBeijing);%>
+		},{
+			type: "line",
+			yValueFormatString: "# ",
+			xValueFormatString: "# ",
+			axisYType: "secondary",
+			showInLegend: true,
+			name: "London",
+			legendText: "{name} (in Linear Scale)",
+			dataPoints: <%out.print(dataPointsLondon);%>
+		},{
+			type: "line",
+			yValueFormatString: "# ",
+			xValueFormatString: "# ",
+			axisYType: "secondary",
+			showInLegend: true,
+			name: "Moskow",
+			legendText: "{name} (in Linear Scale)",
+			dataPoints: <%out.print(dataPointsMoskow);%>
+		}]
+	});
+	chart.render();
+ 
+}
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html>  
+
+
+-------
+
+<%@ page language="java" contentType="text/html; charset=UTF-8"	pageEncoding="UTF-8"%>
+<%@ page import="java.util.*" %>
+<%@ page import="java.io.*" %>
+<%@ page import="com.google.gson.Gson"%>
+<%@ page import="com.google.gson.JsonObject"%>
+
+ 
+<%
+String dataPointsIstanbul = "";
+String dataPointsTokyo= "";
+String dataPointsBeijing= "";
+String dataPointsLondon= "";
+String dataPointsMoskow= "";
+Gson gsonObj = new Gson();
+Map<Object,Object> map = null;
+List<Map<Object,Object>> listIstanbul = new ArrayList<Map<Object,Object>>();
+List<Map<Object,Object>> listTokyo = new ArrayList<Map<Object,Object>>();
+List<Map<Object,Object>> listBeijing = new ArrayList<Map<Object,Object>>();
+List<Map<Object,Object>> listLondon = new ArrayList<Map<Object,Object>>();
+List<Map<Object,Object>> listMoskow = new ArrayList<Map<Object,Object>>();
+
+
+String jspPath = "/tmp/jspLog.txt";
+BufferedReader reader = new BufferedReader(new FileReader(jspPath));
+StringBuilder sb = new StringBuilder();
+String line;
+
+//line = reader.readLine();
+out.println(sb.toString());
+//System.out.println("line" +line);
+
+//while(true){
+	int time = 0;
+	while((line = reader.readLine())!= null)
+	{//cityName:Tokyo,logCount:1,systemTime:1559389691438
+		out.println(sb.toString());
+		//map = new HashMap<Object,Object>(); map.put("x", 0); map.put("y", 1.293E-03); list.add(map);
+//		String dataPoints1 = gsonObj.toJson(list);
+		 String[] logSplitted = line.split(",");
+		 String[] citySplited = logSplitted[0].split(":");
+		 String[] logCountSplited = logSplitted[1].split(":");
+		 String[] systemTimeSplited = logSplitted[2].split(":");
+		 
+try{
+	
+	 map = new HashMap<Object,Object>(); 
+	// int time = Integer.valueOf( systemTimeSplited[1].charAt(9) + systemTimeSplited[1].charAt(10) +systemTimeSplited[1].charAt(11)) / 5;
+		time++;
+	 //char[] time 
+	 map.put("x", time/5); 
+	 map.put("y", logCountSplited[1]);
+	 //list.add(map);
+
+	 if(citySplited[1].equals("Istanbul")){
+		 listIstanbul.add(map);
+		 dataPointsIstanbul = gsonObj.toJson(listIstanbul);
+	 }else if(citySplited[1].equals( "Tokyo")) {
+		 listTokyo.add(map);
+		 dataPointsTokyo = gsonObj.toJson(listTokyo);
+	 }else if(citySplited[1].equals("Beijing")) {
+		 listBeijing.add(map);
+		 dataPointsBeijing = gsonObj.toJson(dataPointsBeijing);
+	 }else if(citySplited[1].equals("London")) {
+		 listLondon.add(map);
+		 dataPointsLondon = gsonObj.toJson(listLondon);
+	 }else if(citySplited[1].equals( "Moskow")) {
+		 listMoskow.add(map);
+		 dataPointsMoskow = gsonObj.toJson(listMoskow);
+	 }
+}catch(Exception e){
+	out.println(e.getMessage());
+}
+time++;
+
+}
+	
+%>
+ 
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript">
+window.onload = function() { 
+ 
+	var chart = new CanvasJS.Chart("chartContainer", {
+		animationEnabled: true,
+		zoomEnabled: true,
+		theme: "light2",
+		title: {
+			text: "Change in Atmospheric Mass Density and Temperature with Altitude"
+		},
+		axisX: {
+			title: "Altitude",
+			valueFormatString: "#,##0 km"
+		},
+		axisY: {
+			logarithmic: true, //change it to false
+			title: "Atmospheric Mass Density (g/cm3)",
+			titleFontColor: "#6D78AD",
+			lineColor: "#6D78AD",
+			gridThickness: 0,
+			lineThickness: 1,
+			valueFormatString: "0.0#E+0",
+			includeZero: false
+		},
+		axisY2: {
+			title: "Temperature (K)",
+			titleFontColor: "#51CDA0",
+			logarithmic: false, //change it to true
+			lineColor: "#51CDA0",
+			gridThickness: 0,
+			lineThickness: 1
+		},
+		toolTip: {
+			shared: true
+		},
+		legend: {
+			verticalAlign: "top",
+			dockInsidePlotArea: true
+		},
+		data: [{
+			type: "line",
+			yValueFormatString: "0.0##E+0 g/cm3",
+			xValueFormatString: "#,##0 km",
+			showInLegend: true,
+			name: "Atmospheric Mass Density",
+			legendText: "{name} (in Log Scale)",
+			dataPoints: <%out.print(listIstanbul);%>
+		},
+		{
+			type: "line",
+			yValueFormatString: "###0 K",
+			xValueFormatString: "#,##0 km",
+			axisYType: "secondary",
+			showInLegend: true,
+			name: "Temperature",
+			legendText: "{name} (in Linear Scale)",
+			dataPoints: <%out.print(listMoskow);%>
+		}]
+	});
+	chart.render();
+ 
+}
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 370px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html>
+
+
+
+
